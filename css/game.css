@@ -1,0 +1,29 @@
+.background    { background-image: url(http://images7.alphacoders.com/322/322616.jpg);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(150,246,9); }
+.wall          { background: white;   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(http://orig10.deviantart.net/ebed/f/2014/290/7/3/corn_cnadyyy_by_kawiku-d837c7n.gif); }
+.player { background-image: url(http://freeemoticonsandsmileys.com/animated%20emoticons/Halloween%20Animated%20Emoticons/witch%20broomstick.gif);
+			background-size: 16px 20px;
+		    box-shadow: -4px -7px 8px white, 4px -7px 8px white;}
+.enemy 	{ background: rgb(192, 28, 19); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url(http://cdn.iconsmash.com/Content/icons/Halloween-Icon-Pack-by-Benjigarner/iconpreviews/32/Witch%20Hat.png);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px yellow;
+}
+
+
